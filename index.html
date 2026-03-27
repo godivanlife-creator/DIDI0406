@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
@@ -11,156 +12,162 @@
             --warning-red: #FF5252;
         }
 
-        body {
-            font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: var(--bg-color);
-            color: #333;
-            text-align: center;
-        }
+```
+    body {
+        font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: var(--bg-color);
+        color: #333;
+        text-align: center;
+    }
 
-        .container {
-            background-color: #ffffff;
-            border-radius: 40px;
-            box-shadow: 0 15px 35px rgba(232, 168, 56, 0.2);
-            padding: 25px;
-            max-width: 420px;
-            margin: 10px auto;
-            border: 2px solid #FFF;
-            animation: slideUp 0.8s ease-out;
-        }
+    .container {
+        background-color: #ffffff;
+        border-radius: 40px;
+        box-shadow: 0 15px 35px rgba(232, 168, 56, 0.2);
+        padding: 25px;
+        max-width: 420px;
+        margin: 10px auto;
+        border: 2px solid #FFF;
+        animation: slideUp 0.8s ease-out;
+    }
 
-        .profile-img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 6px solid var(--main-color);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            object-fit: cover;
-            margin-bottom: 15px;
-            background-color: #f0f0f0;
-        }
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 6px solid var(--main-color);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        object-fit: cover;
+        margin-bottom: 15px;
+        background-color: #f0f0f0;
+    }
 
-        h1 { color: var(--main-color); margin-bottom: 5px; font-size: 28px; }
-        .tagline { color: #888; font-size: 14px; margin-bottom: 20px; letter-spacing: 2px; }
+    h1 { color: var(--main-color); margin-bottom: 5px; font-size: 28px; }
+    .tagline { color: #888; font-size: 14px; margin-bottom: 20px; letter-spacing: 2px; }
 
-        .btn {
-            display: block;
-            padding: 16px;
-            margin: 12px 0;
-            border-radius: 35px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            font-size: 18px;
-            box-sizing: border-box;
-        }
+    .btn {
+        display: block;
+        padding: 16px;
+        margin: 12px 0;
+        border-radius: 35px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
 
-        .btn-sms {
-            background: #007aff;
-            color: white;
-            box-shadow: 0 6px 15px rgba(0, 122, 255, 0.3);
-        }
+    .btn-sms {
+        background: #007aff;
+        color: white;
+        box-shadow: 0 6px 15px rgba(0, 122, 255, 0.3);
+    }
 
-        .btn-call {
-            background: #4CAF50;
-            color: white;
-        }
+    .btn-call {
+        background: #4CAF50;
+        color: white;
+    }
 
-        .btn:active { transform: scale(0.96); }
+    .btn:active { transform: scale(0.96); }
 
-        .info-card {
-            background: #FAFAFA;
-            padding: 20px;
-            border-radius: 20px;
-            text-align: left;
-            margin: 20px 0;
-            border-left: 5px solid var(--main-color);
-        }
+    .info-card {
+        background: #FAFAFA;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: left;
+        margin: 20px 0;
+        border-left: 5px solid var(--main-color);
+    }
 
-        .info-item { margin-bottom: 12px; font-size: 15px; line-height: 1.5; }
-        .info-item strong { color: var(--main-color); display: block; margin-bottom: 2px; }
+    .info-item { margin-bottom: 12px; font-size: 15px; line-height: 1.5; }
+    .info-item strong { color: var(--main-color); display: block; margin-bottom: 2px; }
 
-        .warning-box {
-            background: #FFF5F5;
-            color: var(--warning-red);
-            padding: 15px;
-            border-radius: 15px;
-            font-size: 14px;
-            border: 1px solid #FFEBEB;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
+    .warning-box {
+        background: #FFF5F5;
+        color: var(--warning-red);
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 14px;
+        border: 1px solid #FFEBEB;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
 
-        .instagram-link {
-            display: block;
-            margin: 20px auto;
-            padding: 12px;
-            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 16px;
-        }
+    .instagram-link {
+        display: block;
+        margin: 20px auto;
+        padding: 12px;
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+    }
 
-        @keyframes slideUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+```
+
 </head>
 <body>
 
-    <div class="container">
-        <img src="貼上DI DI的照片連結" alt="DI DI" class="profile-img">
+```
+<div class="container">
+    <img src="https://raw.githubusercontent.com/godivanlife-creator/DIDI0406/main/IMG_0425.jpg" alt="DI DI" class="profile-img">
 
-        <h1>我是 DI DI 🐕</h1>
-        <p class="tagline">GodiVanLife 智慧守護</p>
+    <h1>我是 DI DI 🐕</h1>
+    <p class="tagline">GodiVanLife 智慧守護</p>
 
-        <div class="warning-box">
-            ⚠️ 我超皮的停不下來，但我很可愛請多包涵～
-        </div>
-
-        <div class="info-card">
-            <div class="info-item">👂 <strong>外型特徵：</strong>耳朵一立一垂，超有個性！還有柴犬的捲尾巴～</div>
-            <div class="info-item">🐾 <strong>個性：</strong>活潑好動、超級皮，停不下來的小惡魔！</div>
-        </div>
-
-        <button class="btn btn-sms" onclick="sendSMSLocation()">📍 簡訊通報主人位置</button>
-
-        <a href="tel:0985644396" class="btn btn-call">📞 撥打給主人 1</a>
-        <a href="tel:0905969532" class="btn btn-call">📞 撥打給主人 2</a>
-
-        <a href="https://www.instagram.com/didilife0406?igsh=MWNyeDdnbDh6cnVoMQ%3D%3D&utm_source=qr" target="_blank" class="instagram-link">
-            看我的日常 IG 📸
-        </a>
-
-        <p style="font-size: 11px; color: #CCC; margin-top: 30px; letter-spacing: 2px;">
-            POWERED BY GODIVANLIFE
-        </p>
+    <div class="warning-box">
+        ⚠️ 我超皮的停不下來，但我很可愛請多包涵～
     </div>
 
-    <script>
-        function sendSMSLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition((position) => {
-                    const lat = position.coords.latitude;
-                    const lng = position.coords.longitude;
-                    const mapUrl = "https://www.google.com/maps?q=" + lat + "," + lng;
-                    const message = encodeURIComponent("【尋寵通報】我發現了 DI DI！目前位置：" + mapUrl);
-                    window.location.href = "sms:0985644396?body=" + message;
-                }, () => {
-                    window.location.href = "sms:0985644396?body=" + encodeURIComponent("【尋寵通報】我發現了 DI DI，請與我聯繫。");
-                });
-            } else {
+    <div class="info-card">
+        <div class="info-item">👂 <strong>外型特徵：</strong>耳朵一立一垂，超有個性！還有柴犬的捲尾巴～</div>
+        <div class="info-item">🐾 <strong>個性：</strong>活潑好動、超級皮，停不下來的小惡魔！</div>
+    </div>
+
+    <button class="btn btn-sms" onclick="sendSMSLocation()">📍 簡訊通報主人位置</button>
+
+    <a href="tel:0985644396" class="btn btn-call">📞 撥打給主人 1</a>
+    <a href="tel:0905969532" class="btn btn-call">📞 撥打給主人 2</a>
+
+    <a href="https://www.instagram.com/didilife0406?igsh=MWNyeDdnbDh6cnVoMQ%3D%3D&utm_source=qr" target="_blank" class="instagram-link">
+        看我的日常 IG 📸
+    </a>
+
+    <p style="font-size: 11px; color: #CCC; margin-top: 30px; letter-spacing: 2px;">
+        POWERED BY GODIVANLIFE
+    </p>
+</div>
+
+<script>
+    function sendSMSLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((position) => {
+                const lat = position.coords.latitude;
+                const lng = position.coords.longitude;
+                const mapUrl = "https://www.google.com/maps?q=" + lat + "," + lng;
+                const message = encodeURIComponent("【尋寵通報】我發現了 DI DI！目前位置：" + mapUrl);
+                window.location.href = "sms:0985644396?body=" + message;
+            }, () => {
                 window.location.href = "sms:0985644396?body=" + encodeURIComponent("【尋寵通報】我發現了 DI DI，請與我聯繫。");
-            }
+            });
+        } else {
+            window.location.href = "sms:0985644396?body=" + encodeURIComponent("【尋寵通報】我發現了 DI DI，請與我聯繫。");
         }
-    </script>
+    }
+</script>
+```
+
 </body>
 </html>
